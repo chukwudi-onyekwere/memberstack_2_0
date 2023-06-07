@@ -20,7 +20,7 @@ function memberstack_settings_page() {
                     <td><input type="text" style="width: 80%;" name="memberstack_app_id" value="<?php echo esc_attr( get_option('memberstack_app_id' ) ); ?>" /></td>
                 </tr>
 				<tr>
-					<th scope="row" colspan="2"> SHORTCODES (You can modify the ID and Classes)</th>
+					<th scope="row" colspan="2"> SHORTCODES (You can modify the id, classes, price_id)</th>
 				</tr>
 				<tr>
 					<th> Login Modal:</th>
