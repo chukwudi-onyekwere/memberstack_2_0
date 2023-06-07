@@ -1,4 +1,4 @@
-# Memberstack 2.0 Plugin
+# Memberstack 2.0 Wordpress Plugin
 
 A WordPress plugin that lets Wordpress users easily integrate Memberstack to their websites.
 
