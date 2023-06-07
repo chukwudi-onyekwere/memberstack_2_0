@@ -3,7 +3,7 @@
 A WordPress plugin that lets Wordpress users easily integrate Memberstack to their websites.
 
 ## Disclaimer
-Use at your own risk. This plugin is provided as-is without any warranty. We are not responsible for any data loss, conflicts, or issues that may arise from using this plugin. Make sure to test the plugin thoroughly on a staging or development site before deploying it to a live production site.**
+Use at your own risk. This plugin is provided as-is without any warranty. I am not responsible for any data loss, conflicts, or issues that may arise from using this plugin. Make sure to test the plugin thoroughly on a staging or development site before deploying it to a live production site.
 
 ## Author
 This plugin was developed by Chukwudi Onyekwere.
@@ -13,11 +13,6 @@ This plugin was developed by Chukwudi Onyekwere.
 The Memberstack Plugin allows you integrate Memberstack to your Wordpress website. You can also use the shortcodes in this plugin within your WordPress site. The shortcodes cover Action, Prices and Modals, while other data attributes like the Auth, Forms and Content which are originally for Webflow website also work on Wordpress too :) You can find them here: https://docs.memberstack.com/hc/en-us/articles/7252466484635-All-Webflow-Package-Data-Attributes
 
 
-## Features
-
-- Integrates Memberstack to the permissions with user roles on WordPress
-- Maps Memberstack permissions to corresponding WordPress roles
-- Automatic synchronization on a periodic basis
 
 ## Requirements
 
