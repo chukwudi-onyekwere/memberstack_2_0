@@ -2,7 +2,8 @@
 
 A WordPress plugin that lets Wordpress users easily integrate Memberstack to their websites.
 
-**Disclaimer: Use at your own risk. This plugin is provided as-is without any warranty. We are not responsible for any data loss, conflicts, or issues that may arise from using this plugin. Make sure to test the plugin thoroughly on a staging or development site before deploying it to a live production site.**
+## Disclaimer
+Use at your own risk. This plugin is provided as-is without any warranty. We are not responsible for any data loss, conflicts, or issues that may arise from using this plugin. Make sure to test the plugin thoroughly on a staging or development site before deploying it to a live production site.**
 
 ## Author
 This plugin was developed by Chukwudi Onyekwere.
@@ -38,7 +39,7 @@ The Memberstack Plugin allows you integrate Memberstack to your Wordpress websit
 3. Save the settings
 
 
-##Shortcodes
+## Shortcodes
 
 The plugin provides several shortcodes that you can use in your content to control access and display Memberstack-related elements. Here are the available shortcodes:
 
@@ -57,10 +58,15 @@ The plugin provides several shortcodes that you can use in your content to contr
    [ms_content_members]: Wraps content that should be visible to logged-in members only. Example: [ms_content_members]This content will only be visible to logged-in members.[/ms_content_members]
    
    [ms_content_non_members]: Wraps content that should be visible to logged-out users only. Example: [ms_content_non_members]This content will be visible to logged-out members.[/ms_content_non_members]
+   
    [ms_resend_verification_email]: Displays a resend verification email link. Example: [ms_resend_verification_email class="button" button="true"]Update Price[/ms_resend_verification_email]
+   
    [ms_login_redirect]: Redirects the member to their Login Redirect Url. Example: [ms_login_redirect href="/pagelinkgoeshere" class="button" button="false"]Update Price[/ms_login_redirect]
+   
    [ms_add_price]: Adds a paid plan to a member. Example: [ms_add_price href="#" class="button" button="true" price_id="prc_your_price_id"]Add Price[/ms_add_price]
+   
    [ms_update_price]: Updates/replaces a paid plan. Example: [ms_update_price href="#" class="button" button="true" price_id="prc_your_price_id"]Update Price[/ms_update_price]
+   
    [ms_remove_price]: Clear out any previously selected plans. Example: [ms_remove_price href="#" class="button" button="false"]Remove all[/ms_remove_price]
    
    The shortcodes cover Action, Prices and Modals, while other data attributes like the Auth, Forms and Content which are originally for Webflow website also work on Wordpress too :) You can find them here: https://docs.memberstack.com/hc/en-us/articles/7252466484635-All-Webflow-Package-Data-Attributes
