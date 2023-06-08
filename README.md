@@ -64,8 +64,8 @@ The plugin provides several shortcodes that you can use in your content to contr
    
    [ms_remove_price]: Clear out any previously selected plans. Example: [ms_remove_price href="#" class="button" button="false"]Remove all[/ms_remove_price]
    
-   The shortcodes cover Action, Prices and Modals, while other data attributes like the Auth, Forms and Content which are originally for Webflow website also work on Wordpress too :) You can find them here: https://docs.memberstack.com/hc/en-us/articles/7252466484635-All-Webflow-Package-Data-Attributes
+   The shortcodes cover Action, Prices and Modals, while other data attributes like the Auth, Forms and Content which are originally for Webflow websites, also work on Wordpress too :) You can find them here: https://docs.memberstack.com/hc/en-us/articles/7252466484635-All-Webflow-Package-Data-Attributes
 
-## Contributing
+## Contributions 
 
 Contributions to this plugin are welcome. If you encounter any issues or have suggestions for improvements, please submit an issue or create a pull request on the GitHub repository. 
