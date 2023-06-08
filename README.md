@@ -21,7 +21,7 @@ This plugin allows you integrate Memberstack to your Wordpress website. You can 
 
 ## Installation
 
-1. Download the plugin ZIP file from the GitHub repository.
+1. Download the plugin ZIP file from this GitHub repository.
 2. Log in to your WordPress dashboard.
 3. Go to "Plugins" > "Add New".
 4. Click on the "Upload Plugin" button and choose the downloaded ZIP file.
@@ -30,7 +30,7 @@ This plugin allows you integrate Memberstack to your Wordpress website. You can 
 ## Configuration
 
 1. Go to the Memberstack Integration Settings page under the Settings menu in the WordPress admin area.
-2. Enter your Memberstack App ID in the provided field. (You can get your App ID from your Memberstack dashboard (https://app.memberstack.com/), then head over to the settings > application page.)
+2. Enter your Memberstack App ID in the provided field. (You can get your App ID from your Memberstack dashboard https://app.memberstack.com/, then head over to the settings > application page to copy the app ID.)
 3. Save the settings
 
 
