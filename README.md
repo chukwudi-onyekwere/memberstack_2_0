@@ -10,7 +10,7 @@ This plugin was developed by Chukwudi Onyekwere.
 
 ## Description
 
-This plugin allows you integrate Memberstack to your Wordpress website. You can also use the shortcodes in this plugin within your WordPress site. The shortcodes cover Action, Prices and Modals, while other data attributes like the Auth, Forms and Content which are originally for Webflow website also work on Wordpress too :) You can find them here: https://docs.memberstack.com/hc/en-us/articles/7252466484635-All-Webflow-Package-Data-Attributes
+This plugin allows you integrate Memberstack to your Wordpress website. You can also use the shortcodes in this plugin within your WordPress site. The shortcodes cover Action, Prices and Modals, while other data attributes like the Auth, Forms and Content which are originally for Webflow websites, also work on Wordpress too :) You can find them here: https://docs.memberstack.com/hc/en-us/articles/7252466484635-All-Webflow-Package-Data-Attributes
 
 
 
