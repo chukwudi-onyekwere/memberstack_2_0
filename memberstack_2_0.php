@@ -231,7 +231,7 @@ function ms_customer_portal_shortcode( $atts, $content = '' ) {
         'button' => false,
     ), $atts );
     
-    $modal_attr = 'data-ms-action="customer_portal"';
+    $modal_attr = 'data-ms-action="customer-portal"';
     $class_attr = 'class="' . esc_attr( $atts['class'] ) . '"';
     
     if ( $atts['button'] ) {
