@@ -211,7 +211,7 @@ function ms_forgot_password_shortcode( $atts, $content = '' ) {
         'button' => false,
     ), $atts );
     
-    $modal_attr = 'data-ms-modal="forgot_password"';
+    $modal_attr = 'data-ms-modal="forgot-password"';
     $class_attr = 'class="' . esc_attr( $atts['class'] ) . '"';
     
     if ( $atts['button'] ) {
