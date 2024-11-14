@@ -46,31 +46,82 @@ This plugin allows you integrate Memberstack to your Wordpress website. You can 
 
 The plugin provides several shortcodes that you can use in your content to control access and display Memberstack-related elements. Here are the available shortcodes:
 
-   [ms_login_modal]: Displays a login modal. Example: [ms_login_modal href="#my-link" class="my-class" button="true"]Log in[/ms_login_modal]
+  Login Modal: Displays a login modal.
+  Example: [ms_login_modal href="#my-link" class="my-class" button="true"]Log in[/ms_login_modal]
+
+  Signup Modal: Displays a signup modal.
+  Example: [ms_signup_modal href="#my-link" class="my-class" button="false"]Sign up[/ms_signup_modal]
+
+  Logout: Displays a logout button.
+  Example: [ms_logout href="#my-link" class="my-class" button="true"]Logout[/ms_logout]
+
+  Profile: Displays a link to the user's profile.
+  Example: [ms_profile href="#my-link" class="my-class" button="false"]Profile[/ms_profile]
+
+  Customer Portal: Displays a link to the customer portal.
+  Example: [ms_customer_portal href="#my-link" class="my-class" button="true"]Open Customer Portal[/ms_customer_portal]
+
+  Forgot Password: Displays a forgot password link.
+  Example: [ms_forgot_password href="#my-link" class="my-class" button="true"]Forgot Password[/ms_forgot_password]
+
+  Content for Logged-In Members: Wraps content that should be visible to logged-in members only.
+  Example: [ms_content_members]This content will only be visible to logged-in members.[/ms_content_members]
+
+  Content for Logged-Out Members: Wraps content that should be visible to logged-out users only.
+  Example: [ms_content_non_members]This content will be visible to logged-out members.[/ms_content_non_members]
+
+  Resend Verification Email: Displays a resend verification email link.
+  Example: [ms_resend_verification_email class="button" button="true"]Resend Verification Email[/ms_resend_verification_email]
+
+  Login Redirect: Redirects the member to their specified Login Redirect URL.
+  Example: [ms_login_redirect href="/pagelinkgoeshere" class="button" button="false"]Update Price[/ms_login_redirect]
+
+  Add Paid Plan: Adds a paid plan to a member's account.
+  Example: [ms_add_price href="#" class="button" button="true" price_id="prc_your_price_id"]Add Price[/ms_add_price]
+
+  Update Paid Plan: Updates or replaces an existing paid plan.
+  Example: [ms_update_price href="#" class="button" button="true" price_id="prc_your_price_id"]Update Price[/ms_update_price]
+
+  Remove All Plans: Clears out any previously selected plans.
+  Example: [ms_remove_price href="#" class="button" button="false"]Remove all[/ms_remove_price]
+
+  Add Free Plan: Adds a free plan to the member's account.
+  Example: [ms_add_free_plan plan_id="YOUR_PLAN_ID" button="true"]Add Free Plan[/ms_add_free_plan]
+
+  Remove Free Plan: Removes a free plan from the member's account.
+  Example: [ms_remove_free_plan plan_id="YOUR_PLAN_ID" button="true"]Remove Free Plan[/ms_remove_free_plan]
+
+  Authentication Provider: Displays a login option for an authentication provider (e.g., Google).
+  Example: [ms_auth_provider provider="google"]Continue with Google[/ms_auth_provider]
+
+  Manage Providers: Manages linked authentication providers, such as Google.
+  Example: [ms_auth_manage_providers] [ms_auth_provider provider="google"]Connect Google[/ms_auth_provider] [/ms_auth_manage_providers]
+
+  Auth Connected Text: Customizable text to show when a provider is connected.
+  Example: [ms_auth_connected_text text="Disconnect Google"]Connect Google[/ms_auth_connected_text]
+
+  Auth Disconnect Element: Disconnects the linked authentication provider.
+  Example: [ms_auth_provider provider="google"] [ms_auth_disconnect]X[/ms_auth_disconnect] Connect Google [/ms_auth_provider]
+
+  Commenting Section: Adds a section for comments using a specific channel ID.
+  Example: [data-ms-channel="your_channel_id"]
+
+  Manage Post Items: Allows for managing post items like showing threads, editing, deleting, etc.
+  Example: [data-ms-post="showThreads/edit/delete/content/isModerator/ownerProfileImage/hidden"]
+
+  Manage Threads and Replies: Manages threads and replies with options like sorting and loading more items.
+  Example: [data-ms-thread="container/item/loadMore/content/sort"]
+
+  Custom Loader: Displays a loading icon or text.
+  Example: [ms_loader] Loading Image icon goes here... [/ms_loader]
+
+  Data Binding Style: Binds a CSS style to an element dynamically.
+  Example: [ms_bind_style cssProperty="display" value="block"]Please Update Payment[/ms_bind_style]
+
+  Data Binding Class: Binds a CSS class to an element dynamically.
+  Example: [ms_bind_class className="admin-panel"]Admin Panel[/ms_bind_class]
+
    
-   [ms_signup_modal]: Displays a signup modal. Example: [ms_signup_modal href="#my-link" class="my-class" button="false"]Sign up[/ms_signup_modal]
-   
-   [ms_logout]: Displays a logout button.  Example: [ms_logout href="#my-link" class="my-class" button="true"]Logout[/ms_logout]
-   
-   [ms_profile]: Displays a link to the user's profile. Example: [ms_profile href="#my-link" class="my-class" button="false"] Profile [/ms_profile]
-   
-   [ms_customer_portal]: Displays a link to the customer portal. Example: [ms_customer_portal href="#my-link" class="my-class" button="true"] Open Customer Portal[/ms_customer_portal]
-   
-   [ms_forgot_password]: Displays a forgot password link. Example: [ms_forgot_password href="#my-link" class="my-class" button="true"] Forgot Password [/ms_forgot_password]
-   
-   [ms_content_members]: Wraps content that should be visible to logged-in members only. Example: [ms_content_members]This content will only be visible to logged-in members.[/ms_content_members]
-   
-   [ms_content_non_members]: Wraps content that should be visible to logged-out users only. Example: [ms_content_non_members]This content will be visible to logged-out members.[/ms_content_non_members]
-   
-   [ms_resend_verification_email]: Displays a resend verification email link. Example: [ms_resend_verification_email class="button" button="true"]Update Price[/ms_resend_verification_email]
-   
-   [ms_login_redirect]: Redirects the member to their Login Redirect Url. Example: [ms_login_redirect href="/pagelinkgoeshere" class="button" button="false"]Update Price[/ms_login_redirect]
-   
-   [ms_add_price]: Adds a paid plan to a member. Example: [ms_add_price href="#" class="button" button="true" price_id="prc_your_price_id"]Add Price[/ms_add_price]
-   
-   [ms_update_price]: Updates/replaces a paid plan. Example: [ms_update_price href="#" class="button" button="true" price_id="prc_your_price_id"]Update Price[/ms_update_price]
-   
-   [ms_remove_price]: Clear out any previously selected plans. Example: [ms_remove_price href="#" class="button" button="false"]Remove all[/ms_remove_price]
    
    The shortcodes cover Action, Prices and Modals, while other data attributes like the Auth, Forms and Content which are originally for Webflow websites, also work on Wordpress too :) You can find them here: https://docs.memberstack.com/hc/en-us/articles/7252466484635-All-Webflow-Package-Data-Attributes
 
