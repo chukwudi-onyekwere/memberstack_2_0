@@ -99,7 +99,7 @@ function memberstack_settings_page() {
                 <tr>
                     <th> Auth Disconnect Element:</th>
                     <td>[ms_auth_provider provider="google"] 
-                        [ms_auth_disconnect]<img src="x-icon.png">[/ms_auth_disconnect] 
+                        [ms_auth_disconnect]X[/ms_auth_disconnect] 
                         Connect Google 
                     [/ms_auth_provider]</td>
                 </tr>	
@@ -117,7 +117,7 @@ function memberstack_settings_page() {
                 </tr>
                 <tr>
                     <th> Custom Loader:</th>
-                    <td>[ms_loader] <img src="loader.gif" alt="Loading..."> [/ms_loader]</td>
+                    <td>[ms_loader] Loading Image icon goes here... [/ms_loader]</td>
                 </tr>
                 <tr>
                     <th> Data Binding Style:</th>
