@@ -1,5 +1,13 @@
-# Memberstack 2.0 Wordpress Plugin
-
+=== Membersphere ===
+Contributors: chukwudionyekwere, glonyekwere
+Donate link: https://ko-fi.com/chuddytech
+Tags: woocommerce, payment gateway, membersphere, memberstack, membership
+Requires at least: 6.3
+Requires PHP: 7.4
+Tested up to: 6.6
+Stable tag: 1.0
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 A WordPress plugin that lets Wordpress users easily integrate Memberstack to their websites.
 
 ## Disclaimer
@@ -66,6 +74,36 @@ The plugin provides several shortcodes that you can use in your content to contr
    
    The shortcodes cover Action, Prices and Modals, while other data attributes like the Auth, Forms and Content which are originally for Webflow websites, also work on Wordpress too :) You can find them here: https://docs.memberstack.com/hc/en-us/articles/7252466484635-All-Webflow-Package-Data-Attributes
 
+
 ## Contributions 
 
 Contributions to this plugin are welcome. If you encounter any issues or have suggestions for improvements, please submit an issue or create a pull request on the GitHub repository. 
+
+
+=== Frequently Asked Questions ===
+= How does Dealique work? =
+Dealique is an escrow payment gateway that securely holds funds until the transaction is completed. It ensures that both buyers and sellers are protected throughout the transaction process.
+
+= What do I need to set up Dealique? =
+You need to sign up for a Dealique account and obtain your API key. Once you have your API key, you can configure it in the Dealique settings within your WooCommerce setup.
+
+= Is Dealique secure? =
+Yes, Dealique uses industry-standard security measures to protect transactions and personal information.
+
+=== Changelog ===
+= 1.0 =
+* Initial release of the Dealique Escrow Payment Gateway plugin.
+
+=== Upgrade Notice ===
+= 1.0 =
+This is the initial release. There are no upgrade notices for this version.
+
+=== Screenshots ===
+1. **Dealique Payment Settings**  
+   A screenshot showing the settings page where users can configure their Dealique API key and other options.
+
+2. **Checkout Page**  
+   A screenshot of the WooCommerce checkout page displaying the Dealique payment option.
+
+3. **Transaction Confirmation**  
+   A screenshot showing the confirmation page after a successful transaction with Dealique.
